@@ -1,0 +1,16 @@
+void main() {
+ 
+  String a;
+  a='Muhammad 20 @ iii Abdullah';
+  
+  print(a);
+  
+  bool b;
+  
+  b= 23>27;
+  
+  print(b);
+}
+
+
+================
