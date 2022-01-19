@@ -1,0 +1,28 @@
+main(){
+  
+  
+  var lst=List<int>.filled(0,0,growable: true);
+ lst.add(23);
+  lst.add(24);
+  lst.add(23);
+  lst.add(23);
+  lst.add(23);
+  print(lst[1]);
+   
+  //bool b=true;
+  
+  //print(b.toString());
+//   int a=20;
+//   print(a.isOdd);
+  
+//   double f=2.5;
+//   print();
+//   String s="Abdullahbbbbb";
+//   print(s.length);
+//   print(s.contains('Z'));
+//   print(s[6]);
+//   print(s.isEmpty);
+//   print(s.allMatches('b',1));
+        
+  
+}
