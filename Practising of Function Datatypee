@@ -16,3 +16,21 @@ void main() {
   string();
   
 }
+==========================
+
+
+int st(int a, int b) //name
+
+{//Body Of function
+  print("Shariq learning Dart");
+  int  res=a-b;
+  //print("the plus of $res");
+ return res;
+  }
+
+void main(){
+  
+  
+  int res=st(4,4);
+  print (res);
+}
