@@ -1,0 +1,18 @@
+String()
+{
+  Print("Shariq learning Dart");
+}
+=================================
+
+
+string()
+
+{
+  print("Shariq learning Dart");
+}
+
+void main() {
+  
+  string();
+  
+}
