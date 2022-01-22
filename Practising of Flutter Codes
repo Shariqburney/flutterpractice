@@ -1,0 +1,86 @@
+
+Skip to content
+All gists
+Back to GitHub
+@Shariqburney
+@Shariqburney
+Shariqburney/Practising of Flutter codes
+Created 3 minutes ago
+
+    0
+
+Code
+Revisions 1
+Practising of Flutter codes
+import 'package:flutter/material.dart';
+
+class LoginScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        backgroundColor: Colors.white,
+        appBar: AppBar(
+          title: Text(
+            "Login",
+            style: TextStyle(color: Colors.pink),
+          ),
+        ),
+        body: Padding(
+          padding: EdgeInsets.only(right: 30.0, left: 30),
+          child: Container(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Center(
+                  child: Text(
+                    "Login",
+                    style: TextStyle(
+                        color: Colors.purple,
+                        fontSize: 30,
+                        fontWeight: FontWeight.w600),
+                  ),
+                ),
+                Container(
+                  height: 40,
+                ),
+                TextField(
+                  obscureText: true,
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'lOGIN',
+                  ),
+                ),
+                Container(
+                  height: 40,
+                ),
+                TextField(
+                  obscureText: true,
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'password',
+                  ),
+                )
+              ],
+            ),
+          ),
+        ));
+  }
+}
+@Shariqburney
+Attach files by dragging & dropping, selecting or pasting them.
+
+    © 2022 GitHub, Inc.
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
